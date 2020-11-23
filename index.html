@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>TOKO SERBAGUNA</title>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+            <!-- External CSS -->
+            <link rel="stylesheet" href="assets/css/style.css">
+
+            <!-- Embedded CSS-->
+            <style type="text/css">
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                }
+
+                li {
+                    float: left;
+                }
+
+                li a, .dropbtn {
+                    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    background-color: rgb(187, 34, 42);
+                }
+
+                li.dropdown {
+                    display: inline-block;
+                }
+
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;
+                }
+
+                .dropdown-content a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                    text-align: left;
+                }
+
+                .dropdown-content a:hover {background-color: #f1f1f1;}
+
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+            </style>
+        </head>
+
+        <body>            
+            <div class="container">                
+                <!-- Header start -->
+                <header id="header" class="header-one">
+                    <div class="row">
+                        <div class="logo-area">
+                            <div class="logo col-xs-12 col-md-3">
+                                <a href="index.html">
+                                    <!-- Inline CSS -->
+                                    <img src="assets/img/logo.png" style="width:400px; leght:100px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" >Halaman Utama</a></li>
+                        <li class="dropdown">
+                            <a href="keranjang.html" class="dropbtn">Keranjang</a>
+                        </li>
+                        <li class ="rightclick">
+                            <a href="login.html" class="dropbtn">LOGIN</a>
+                    </ul>
+                </nav>
+
+                <article>
+                        <div>
+                            <!-- About Baju -->
+                            <div class="konten">
+                                <a href=""><img src="assets/img/kaoshitampolos.jpg" style="width: 97%; height: 65%;" ></a>
+                                <div class="judul">
+                                    <a href="">Baju</a>
+                                </div>
+                                <p align="justify">
+                                    Baju ini sangat berkualitas.
+                                </p>
+                            </div>
+
+                            <!-- About Celana -->
+                            <div class="konten">
+                                <a href=""><img src="assets/img/celana.png" style="width: 97%; height: 65%;" ></a>
+                                <div class="judul">
+                                    <a href="">Celana</a>
+                                </div>
+                                <p align="justify">
+                                    Celana ini sangat berkualitas.
+                                </p>
+                            </div>
+
+                            <!-- About Sepatu -->
+                            <div class="konten">
+                                <a href=""><img src="assets/img/sepatu.jpg" style="width: 97%; height: 65%;" ></a>
+                                <div class="judul">
+                                    <a href="">Sepatu</a>
+                                </div>
+                                <p align="justify">
+                                    Sepatu ini sangat berkualitas.
+                                </p>
+                            </div>
+
+                            <!-- About Tas -->
+                            <div class="konten">
+                                <a href=""><img src="assets/img/tas.jpg" style="width: 97%; height: 65%;" ></a>
+                                <div class="judul">
+                                    <a href="">Tas</a>
+                                </div>
+                                <p align="justify">
+                                    Tas ini sangat berkualitas.
+                                </p>
+                            </div>
+
+                            
+                </article>
+                <article></article>
+            </div>
+        </body>
+    </html>
