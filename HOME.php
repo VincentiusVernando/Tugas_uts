@@ -4,6 +4,10 @@ include "KONEKSI-DATABASE.php";
 
 session_start();
 
+require 'vendor/autoload.php';
+use Carbon\Carbon;
+$waktu = Carbon::now();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,6 +43,7 @@ session_start();
 			</div>
 		</div>
 	</div>
+
 
 	<!-- CONTENT1 -->
 	<div class="container3">
@@ -189,6 +194,11 @@ session_start();
 	<script src="JS/HOME.js" type="text/javascript">
 	</script>
 
+	<footer>
+                <div class="copyright" align="center">
+                    <span>Time : <?php echo "$waktu"; ?></span>
+                </div>
+            </footer> 
 
 </body>
 </html>
