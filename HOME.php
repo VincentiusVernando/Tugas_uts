@@ -23,7 +23,7 @@ $waktu = Carbon::now();
 			
 
 			<div class="img2">
-				<a href="HOME.php"><img src="FOTO/logo.png" width="15%"></a>
+				<a href="HOME.php"><img src="FOTO/logo.png" width="10%"></a>
 			</div>
 
 			<div class="navbar">
